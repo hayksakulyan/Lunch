@@ -9,6 +9,15 @@ import UIKit
 
 class RegisterViewController: UIViewController {
 
+    
+    @IBOutlet weak var userNameReg: UITextField!
+    @IBOutlet weak var emailReg: UITextField!
+    @IBOutlet weak var passwordReg: UITextField!
+    @IBOutlet weak var confirmPasswordReg: UITextField!
+    @IBOutlet weak var regBtn: UIButton!
+    @IBOutlet weak var backRegBtn: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,14 +25,11 @@ class RegisterViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+   
+    @IBAction func backAction(_ sender: UIButton) {
     }
-    */
-
+    
+    @IBAction func regAction(_ sender: UIButton) {
+    }
+    
 }

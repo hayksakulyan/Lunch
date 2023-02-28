@@ -41,6 +41,11 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <connections>
+                        <outlet property="Password" destination="0bs-KO-4oZ" id="F3U-om-lzF"/>
+                        <outlet property="loginBtn" destination="q54-Lz-FP8" id="bDK-db-4zn"/>
+                        <outlet property="userName" destination="xIL-ww-fTc" id="p4q-7m-R69"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
